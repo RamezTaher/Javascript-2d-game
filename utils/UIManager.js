@@ -70,14 +70,6 @@ class UI {
 
   displayMainMenu() {
     add([sprite("forest-background"), scale(4)])
-    add([
-      sprite("logo"),
-      fixed(),
-      area(),
-      anchor("center"),
-      pos(center().x, center().y - 200),
-      scale(8),
-    ])
 
     this.displayBlinkingUIMessage(
       "Press [ Enter ] to Start Game",
