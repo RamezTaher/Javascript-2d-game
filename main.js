@@ -34,7 +34,7 @@ const scenes = {
     bgSoundManager.play("water-ambience")
     const level1 = new Level()
     setGravity(level1Config.gravity)
-    level1.drawBackground("forest-background")
+    level1.drawBackground("castle-background")
     level1.drawMapLayout(level1Layout, level1Mappings)
 
     const player = new Player(
@@ -50,7 +50,7 @@ const scenes = {
     player.enableCoinPickUp()
     player.enableMobVunerability()
 
-    level1.drawWaves("water", "wave")
+    level1.drawWaves("lava", "wave")
 
     const camera = new Camera()
     camera.attach(player.gameObj, 0, -200, null, 200)

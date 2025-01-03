@@ -69,7 +69,7 @@ class UI {
   }
 
   displayMainMenu() {
-    add([sprite("forest-background"), scale(4)])
+    add([sprite("castle-background"), scale(4)])
 
     this.displayBlinkingUIMessage(
       "Press [ Enter ] to Start Game",
@@ -83,7 +83,7 @@ class UI {
   }
 
   displayControlsMenu() {
-    add([sprite("forest-background"), scale(4)])
+    add([sprite("castle-background"), scale(4)])
     add([
       text("Controls", { font: "Round", size: 50 }),
       area(),
